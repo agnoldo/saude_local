@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Saúde local by agnoldo</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Saúde local</h1>
+          <h2>Saúde Local, aplicativo social que mostra unidades de saúde pública na região e compartilha problemas, opiniões e tempo de atendimento</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/agnoldo/saude_local/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/agnoldo/saude_local/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/agnoldo/saude_local" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <ul>
+<li><a href="https://github.com/agnoldo/saude_local#introdu%C3%A7%C3%A3o">Introdução</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#tema">Tema</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#funcionamento">Funcionamento</a></li>
+<li>
+<a href="https://github.com/agnoldo/saude_local#funcionalidades-principais">Funcionalidades Principais</a>
+
+<ul>
+<li><a href="https://github.com/agnoldo/saude_local#cadastro-de-novo-usu%C3%A1rio">Cadastro de novo usuário</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#login-por-emailsenha">Login por email/senha</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#recupera%C3%A7%C3%A3o-de-senha">Recuperação de senha</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#login-por-facebook">Login por Facebook</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#mapa-com-postos-de-sa%C3%BAde-na-regi%C3%A3o">Mapa com postos de saúde na região</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#postagem-de-atendimento">Postagem de atendimento</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#postos-de-sa%C3%BAde-na-regi%C3%A3o-ordenados-por-dist%C3%A2ncia-geogr%C3%A1fica-do-ponto-corrente">Postos de saúde na região</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#postos-de-sa%C3%BAde-favoritos-do-usu%C3%A1rio-corrente">Postos de saúde favoritos do usuário corrente</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#detalhe-de-posto-de-sa%C3%BAde">Informações detalhadas sobre Posto de Saúde</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#hist%C3%B3rico-de-atendimentos-do-usu%C3%A1rio-corrente">Histórico de atendimentos do usuário corrente</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#altera%C3%A7%C3%A3o-de-avatar-imagem-de-perfil-na-plataforma">Alteração de avatar na plataforma</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/agnoldo/saude_local#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#coordena%C3%A7%C3%A3o-e-equipe-t%C3%A9cnica">Coordenação e Equipe Técnica</a></li>
+<li><a href="https://github.com/agnoldo/saude_local#disponibilidade">Disponibilidade</a></li>
+</ul>
+
+<h2>
+<a id="introdução" class="anchor" href="#introdu%C3%A7%C3%A3o" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introdução</h2>
+
+<p>Aplicativo que mostra postos de saúde pública na região e permite ao usuário registrar e compartilhar problemas, opiniões e tempo de atendimento classificados por serviço prestado. Possui filtros por especialidades atendidas e guarda histórico de visitas do usuário, que pode ser visualizado posteriormente sob a forma de linha do tempo.</p>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Sa%C3%BAde%20Local-feature-graphic.png" width="600px"></p>
+
+<h2>
+<a id="tema" class="anchor" href="#tema" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tema</h2>
+
+<p>O principal objetivo deste aplicativo é facilitar o acesso do cidadão à rede pública de postos de saúde, permitindo encontrar unidades por meio de proximidade geográfica, serviços prestados e especialidades atendidas. Informações de contato como endereço e telefone são disponibilizadas e integradas aos recursos de navegação e telefonia do dispositivo móvel para maior facilidade de uso.</p>
+
+<p>Em complemento, o aplicativo também apresenta informações publicadas por outros usuários com relação à qualidade dos serviços prestados e ao tempo de atendimento. Estes dados podem ser usados para subsidiar a escolha de dia, horário e opção de posto de saúde a ser visitado.</p>
+
+<p>Finalmente, problemas no atendimento podem ser classificados e relatados pelos usuários. Estes dados podem ser usados atualmente por gestores de saúde sob a condição de usuários comuns e, futuramente, se vislumbra o desenvolvimento de sistema web com comparativos locais e regionais de qualidade de serviços prestados.</p>
+
+<h2>
+<a id="funcionamento" class="anchor" href="#funcionamento" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Funcionamento</h2>
+
+<p>A interação com o usuário começa na tela de abertura, a partir da qual ele pode entrar com email/senha previamente cadastrados, cadastrar novo usuário (fornecendo para isto informações como nome de usuário, email, nome completo, senha, sexo e data de nascimento) e recuperar senha de usuário. Também pode optar por efetuar login por conta do Facebook, caso em que o aplicativo abre tela do referido site para autenticação do usuário. Ao ser autorizado pelo site, o usuário tem sua conta automaticamente cadastrada ou autenticada no aplicativo, sem necessidade de cadastro de nova senha. A tela inicial possui ainda atalhos para Termos de Serviço e Política de Privacidade.</p>
+
+<p>Ao entrar no aplicativo, o usuário será levado ao menu central. A partir daí, poderá acessar uma das principais funcionalidades, um mapa com os postos de saúde próximos geograficamente à sua posição atual. Nesta tela ele poderá filtrar os postos por especialidade atendida ou clicar em cada posto e acessar sua tela de detalhe.</p>
+
+<p>A tela de detalhe do posto de saúde, por sua vez, apresenta informações como telefone (com atalho para discagem), endereço (com atalho para aplicativo de mapa e navegação). O usuário poderá visualizar também as opiniões de outros usuários acerca dos serviços prestados, além de gráfico com tempo médio de atendimento geral ou por serviço. Finalmente o usuário poderá marcar o posto de saúde como “favorito”, o que faz com que esta unidade apareça em lista facilmente acessível a partir do menu central ou do menu lateral esquerdo da ferramenta.</p>
+
+<p>Também a partir do menu central o usuário pode acessar listas gerais de postos de saúde na sua região ou a lista de seus favoritos. Estas listas mostram dados resumidos sobre cada posto de saúde, com atalhos para discagem telefônica e para acesso à tela de detalhe do posto.</p>
+
+<p>Outra importante funcionalidade é a postagem de informações sobre um atendimento em posto de saúde. Isto pode ser feito por meio do atalho “Postar novo” (atendimento) ou por meio do botão “+”. Ao registrar um atendimento, o usuário será instado a registrar informações como:</p>
+
+<ul>
+<li>posto de saúde visitado: a lista apresenta postos ordenados por distância geográfica crescente;</li>
+<li>descrição textual do atendimento;</li>
+<li>avaliação: com estrelas numa escala de 1 a 5;</li>
+<li>serviço utilizado: alguns exemplos são Vacinação e Clínica Geral;</li>
+<li>resultado do atendimento: opções como “Serviço realizado com sucesso”, “Material em falta”, “Funcionário não presente” ou “Desistência por causa de fila”;
+horários de chegada e saída.</li>
+</ul>
+
+<p>Finalmente, o aplicativo possui a tela Histórico, que apresenta os registros de atendimento feitos pelo usuário corrente sob a forma de linha do tempo, com atalhos para os dados de cada posto de saúde visitado.</p>
+
+<h2>
+<a id="funcionalidades-principais" class="anchor" href="#funcionalidades-principais" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Funcionalidades Principais</h2>
+
+<p>Nesta seção, apresentaremos por meio de capturas de tela (<em>screenshots</em>) as principais funcionalidades do aplicativo:</p>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-19-25.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-27-47.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-40-29.png" width="290px"></p>
+
+<h3>
+<a id="cadastro-de-novo-usuário" class="anchor" href="#cadastro-de-novo-usu%C3%A1rio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cadastro de novo usuário</h3>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-51-13.png" width="290px"></p>
+
+<h3>
+<a id="login-por-emailsenha" class="anchor" href="#login-por-emailsenha" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Login por email/senha</h3>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-50-30.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-49-31.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-42-49.png" width="290px"></p>
+
+<h3>
+<a id="recuperação-de-senha" class="anchor" href="#recupera%C3%A7%C3%A3o-de-senha" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Recuperação de senha</h3>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-50-49.png" width="290px"></p>
+
+<h3>
+<a id="login-por-facebook" class="anchor" href="#login-por-facebook" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Login por Facebook</h3>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-13-05-16.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-13-05-27.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-13-05-34.png" width="290px"></p>
+
+<h3>
+<a id="mapa-com-postos-de-saúde-na-região" class="anchor" href="#mapa-com-postos-de-sa%C3%BAde-na-regi%C3%A3o" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mapa com postos de saúde na região</h3>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-28-11.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-13-07-08.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-29-43.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-30-43.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-15.png" width="290px"></p>
+
+<h3>
+<a id="detalhe-de-posto-de-saúde" class="anchor" href="#detalhe-de-posto-de-sa%C3%BAde" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Detalhe de posto de saúde</h3>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-25.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-32.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-53.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-33-05.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-52-58.png" width="290px"></p>
+
+<h3>
+<a id="postagem-de-atendimento" class="anchor" href="#postagem-de-atendimento" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Postagem de atendimento</h3>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-56.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-04.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-22.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-41.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-54.png" width="290px"></p>
+
+<h3>
+<a id="histórico-de-atendimentos-do-usuário-corrente" class="anchor" href="#hist%C3%B3rico-de-atendimentos-do-usu%C3%A1rio-corrente" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Histórico de atendimentos do usuário corrente</h3>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-29.png" width="290px">
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-40.png" width="290px"></p>
+
+<h3>
+<a id="postos-de-saúde-na-região-ordenados-por-distância-geográfica-do-ponto-corrente" class="anchor" href="#postos-de-sa%C3%BAde-na-regi%C3%A3o-ordenados-por-dist%C3%A2ncia-geogr%C3%A1fica-do-ponto-corrente" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Postos de saúde na região (ordenados por distância geográfica do ponto corrente)</h3>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-33-37.png" width="290px"></p>
+
+<h3>
+<a id="postos-de-saúde-favoritos-do-usuário-corrente" class="anchor" href="#postos-de-sa%C3%BAde-favoritos-do-usu%C3%A1rio-corrente" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Postos de saúde favoritos do usuário corrente</h3>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-52-46.png" width="290px"></p>
+
+<h3>
+<a id="alteração-de-avatar-imagem-de-perfil-na-plataforma" class="anchor" href="#altera%C3%A7%C3%A3o-de-avatar-imagem-de-perfil-na-plataforma" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Alteração de avatar (imagem de perfil) na plataforma</h3>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-11-01-30.png" width="290px"></p>
+
+<h2>
+<a id="tecnologias-utilizadas" class="anchor" href="#tecnologias-utilizadas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tecnologias Utilizadas</h2>
+
+<p>O aplicativo foi desenvolvido em HTML, Javascript e CSS sobre os frameworks Apache Cordova, ionic e Angular.js. O primeiro, Apache Cordova, se trata de um framework criado para viabilizar a execução de um mesmo código HTML/Javascript em múltiplas plataformas, com destaque a sistemas móveis tais como iOS, Android, Windows, Blackberry OS e Firefox OS. O segundo, ionic, se baseia no Apache Cordova e no Angular.js para facilitar a criação de aplicativos móveis com visual nativo nos ambientes citados. Finalmente, o terceiro, Angular.js, é um framework criado pelo Google para facilitar a implementação de lógica sofisticada de interação em aplicativos web.</p>
+
+<p>Além destas tecnologias e frameworks basilares, foram utilizados inúmeros plug-ins e bibliotecas de código fonte aberto para viabilizar a implementação de funcionalidades avançadas do aplicativo, dentre os quais podemos destacar:</p>
+
+<ul>
+<li>angular-material: biblioteca para adoção de linguagem visual Material Design no ionic;</li>
+<li>ngCordova: biblioteca com componentes para funcionalidades avançadas como login em Facebook (e outras redes sociais) e download/upload de imagens, por exemplo;</li>
+<li>ionic-platform-web-client, cordova-plugin-whitelist, cordova-plugin-inappbrowser: em conjunto, estes três plug-ins viabilizam a implementação do login no Facebook com uso de tela nativa do referido site e, por isso, sem qualquer trânsito de senha do Facebook pelo aplicativo Saúde Local;</li>
+<li>ionic-toast: mensagens flutuantes temporárias no aplicativo;</li>
+<li>ionic-rating: componente para avaliação de atendimento em estrelas (1 a 5);</li>
+<li>angular-chart.js: gráficos de barras usados em tempo médio de atendimento;</li>
+<li>moment.js: cálculos diversos relacionados a data/hora no aplicativo;</li>
+<li>ionic-timepicker: componente para edição de hora de chegada e saída em atendimento.</li>
+</ul>
+
+<h2>
+<a id="coordenação-e-equipe-técnica" class="anchor" href="#coordena%C3%A7%C3%A3o-e-equipe-t%C3%A9cnica" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Coordenação e Equipe Técnica</h2>
+
+<ul>
+<li>Arnaldo Gomes dos Santos Junior (Coordenador)</li>
+<li>Júnia Gaudereto Carvalho Gomes</li>
+</ul>
+
+<h2>
+<a id="disponibilidade" class="anchor" href="#disponibilidade" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Disponibilidade</h2>
+
+<p>Aplicativo lançado inicialmente em beta fechado no Google Play. <a href="mailto:agnoldo@gmail.com">Solicite seu convite</a>!</p>
+
+<p><img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/FireShot%20Capture%2043%20-%20Sa%C3%BAde%20Local%20%E2%80%93%20Apps%20para%20Android%20_%20-%20https___play.google.com_store_apps_details.png" width="900px"></p>
+
+<p><a href="https://play.google.com/store/apps/details?id=com.agnoldo.sl01&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Disponível no Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/pt-br_badge_web_generic.png"></a></p>
+        </section>
+
+        <footer>
+          Saúde local is maintained by <a href="https://github.com/agnoldo">agnoldo</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
