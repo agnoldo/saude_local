@@ -1,5 +1,27 @@
 # Saúde Local
 
+- [Introdução](https://github.com/agnoldo/saude_local#introdução)
+- [Tema](https://github.com/agnoldo/saude_local#tema)
+- [Funcionamento](https://github.com/agnoldo/saude_local#funcionamento)
+- [Funcionalidades Principais](https://github.com/agnoldo/soufiscal#funcionalidades-principais)
+    - [Cadastro de novo usuário](https://github.com/agnoldo/saude_local#cadastro-de-novo-usuário)
+    - [Login por email/senha](https://github.com/agnoldo/saude_local#login-por-emailsenha)
+    - [Recuperação de senha](https://github.com/agnoldo/saude_local#recuperação-de-senha)
+    - [Login por Facebook](https://github.com/agnoldo/saude_local#login-por-facebook)
+    - [Mapa com postos de saúde na região](https://github.com/agnoldo/saude_local#mapa-com-postos-de-saúde-na-região)
+    - [Postagem de atendimento](https://github.com/agnoldo/saude_local#postagem-de-atendimento)
+    - [Postos de saúde na região (ordenados por distância geográfica do ponto corrente)](https://github.com/agnoldo/saude_local#postos-de-saúde-na-região-ordenados-por-distância-geográfica-do-ponto-corrente)
+    - [Postos de saúde favoritos do usuário corrente](https://github.com/agnoldo/saude_local#postos-de-saúde-favoritos-do-usuário-corrente)
+    - [Informações detalhadas sobre Posto de Saúde](https://github.com/agnoldo/saude_local#detalhe-de-posto-de-saúde)
+    - [Histórico de atendimentos do usuário corrente](https://github.com/agnoldo/saude_local#histórico-de-atendimentos-do-usuário-corrente)
+    - [Alteração de avatar (imagem de perfil) na plataforma](https://github.com/agnoldo/saude_local#alteração-de-avatar-imagem-de-perfil-na-plataforma)
+- [Tecnologias Utilizadas](https://github.com/agnoldo/saude_local#tecnologias-utilizadas)
+- [Coordenação e Equipe Técnica](https://github.com/agnoldo/saude_local#coordenação-e-equipe-técnica)
+- [Disponibilidade](https://github.com/agnoldo/saude_local#disponibilidade)
+
+
+## Introdução
+
 Aplicativo que mostra postos de saúde pública na região e permite ao usuário registrar e compartilhar problemas, opiniões e tempo de atendimento classificados por serviço prestado. Possui filtros por especialidades atendidas e guarda histórico de visitas do usuário, que pode ser visualizado posteriormente sob a forma de linha do tempo.
 
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Saúde Local-feature-graphic.png" width="600px" />
@@ -68,7 +90,7 @@ Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as pr
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-30-43.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-15.png" width="290px" />
 
-### Tela de detalhe de posto de saúde
+### Detalhe de posto de saúde
 
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-25.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-32.png" width="290px" />
@@ -76,7 +98,7 @@ Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as pr
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-33-05.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-52-58.png" width="290px" />
 
-### Tela de postagem de atendimento
+### Postagem de atendimento
 
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-56.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-04.png" width="290px" />
@@ -89,11 +111,11 @@ Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as pr
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-29.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-40.png" width="290px" />
 
-### Lista de postos de saúde na região (ordenados por distância geográfica do ponto corrente)
+### Postos de saúde na região (ordenados por distância geográfica do ponto corrente)
   
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-33-37.png" width="290px" />
 
-### Lista de postos de saúde favoritos do usuário corrente
+### Postos de saúde favoritos do usuário corrente
 
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-52-46.png" width="290px" />
 
