@@ -3,7 +3,8 @@
 - [Introdução](https://github.com/agnoldo/saude_local#introdução)
 - [Tema](https://github.com/agnoldo/saude_local#tema)
 - [Funcionamento](https://github.com/agnoldo/saude_local#funcionamento)
-- [Funcionalidades Principais](https://github.com/agnoldo/soufiscal#funcionalidades-principais)
+- [Funcionalidades Principais](https://github.com/agnoldo/saude_local#funcionalidades-principais)
+
     - [Cadastro de novo usuário](https://github.com/agnoldo/saude_local#cadastro-de-novo-usuário)
     - [Login por email/senha](https://github.com/agnoldo/saude_local#login-por-emailsenha)
     - [Recuperação de senha](https://github.com/agnoldo/saude_local#recuperação-de-senha)
