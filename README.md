@@ -46,7 +46,7 @@ Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as pr
 
 ### Login por email/senha
 
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-50-49.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-50-30.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-49-31.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-42-49.png" width="290px" />
 
@@ -68,22 +68,6 @@ Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as pr
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-30-43.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-15.png" width="290px" />
 
-### Tela de postagem de atendimento
-
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-56.png" width="290px" />
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-04.png" width="290px" />
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-22.png" width="290px" />
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-41.png" width="290px" />
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-54.png" width="290px" />
-  
-### Lista de postos de saúde na região (ordenados por distância geográfica do ponto corrente)
-  
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-33-37.png" width="290px" />
-
-### Lista de postos de saúde favoritos do usuário corrente
-
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-52-46.png" width="290px" />
-
 ### Tela de detalhe de posto de saúde
 
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-25.png" width="290px" />
@@ -92,10 +76,26 @@ Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as pr
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-33-05.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-52-58.png" width="290px" />
 
+### Tela de postagem de atendimento
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-56.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-04.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-22.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-41.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-54.png" width="290px" />
+  
 ### Histórico de atendimentos do usuário corrente
 
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-29.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-40.png" width="290px" />
+
+### Lista de postos de saúde na região (ordenados por distância geográfica do ponto corrente)
+  
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-33-37.png" width="290px" />
+
+### Lista de postos de saúde favoritos do usuário corrente
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-52-46.png" width="290px" />
 
 ### Alteração de avatar (imagem de perfil) na plataforma
 
