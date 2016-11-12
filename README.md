@@ -2,6 +2,8 @@
 
 Aplicativo que mostra postos de saúde pública na região e permite ao usuário registrar e compartilhar problemas, opiniões e tempo de atendimento classificados por serviço prestado. Possui filtros por especialidades atendidas e guarda histórico de visitas do usuário, que pode ser visualizado posteriormente sob a forma de linha do tempo.
 
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Saúde Local-feature-graphic.png" width="600px" />
+
 ## Tema
 
 O principal objetivo deste aplicativo é facilitar o acesso do cidadão à rede pública de postos de saúde, permitindo encontrar unidades por meio de proximidade geográfica, serviços prestados e especialidades atendidas. Informações de contato como endereço e telefone são disponibilizadas e integradas aos recursos de navegação e telefonia do dispositivo móvel para maior facilidade de uso.
@@ -32,22 +34,69 @@ Finalmente, o aplicativo possui a tela Histórico, que apresenta os registros de
 
 ## Funcionalidades Principais
 
-- Cadastro de novo usuário
-- Login por email/senha
-- Recuperação de senha
-- Login por Facebook
-- Mapa com postos de saúde na região
-  - Filtro por especialidade
-  - Demais funcionalidades de mapas na plataforma Google Maps, tais como zoom, Street View e camadas (imagem de satélite, mapa, terreno...)
-- Lista de postos de saúde na região (ordenados por distância geográfica do ponto corrente)
-  - Cada posto de saúde aparece com dados gerais como nome, endereço e telefone, além de atalho para tela de detalhe
-- Lista de postos de saúde favoritos do usuário corrente
-- Tela de detalhe de posto de saúde
-  - Dados gerais sobre posto de saúde
-  - Opiniões sobre atendimentos
-  - Tempo médio de atendimento (geral ou por serviço prestado)
-- Histórico de atendimentos do usuário corrente
-- Alteração de avatar (imagem de perfil) na plataforma
+Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as principais funcionalidades do aplicativo:
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-19-25.png" width="290px" />
+
+### Cadastro de novo usuário
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-51-13.png" width="290px" />
+
+### Login por email/senha
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-50-49.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-49-31.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-42-49.png" width="290px" />
+
+### Recuperação de senha
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-50-49.png" width="290px" />
+
+### Login por Facebook
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-13-05-16.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-13-05-27.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-13-05-34.png" width="290px" />
+
+### Mapa com postos de saúde na região
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-28-11.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-13-07-08.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-29-43.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-30-43.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-15.png" width="290px" />
+  
+### Lista de postos de saúde na região (ordenados por distância geográfica do ponto corrente)
+  
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+
+### Lista de postos de saúde favoritos do usuário corrente
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+
+
+### Tela de detalhe de posto de saúde
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-25.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-32.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-53.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-33-05.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-52-58.png" width="290px" />
+
+### Histórico de atendimentos do usuário corrente
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+
+### Alteração de avatar (imagem de perfil) na plataforma
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+
 
 ## Tecnologias Utilizadas
 
