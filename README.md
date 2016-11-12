@@ -37,6 +37,8 @@ Finalmente, o aplicativo possui a tela Histórico, que apresenta os registros de
 Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as principais funcionalidades do aplicativo:
 
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-19-25.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-27-47.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-40-29.png" width="290px" />
 
 ### Cadastro de novo usuário
 
@@ -65,21 +67,22 @@ Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as pr
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-29-43.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-30-43.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-15.png" width="290px" />
+
+### Tela de postagem de atendimento
+
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-56.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-04.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-22.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-41.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-54-54.png" width="290px" />
   
 ### Lista de postos de saúde na região (ordenados por distância geográfica do ponto corrente)
   
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
-
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-33-37.png" width="290px" />
 
 ### Lista de postos de saúde favoritos do usuário corrente
 
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
-
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-52-46.png" width="290px" />
 
 ### Tela de detalhe de posto de saúde
 
@@ -91,11 +94,12 @@ Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as pr
 
 ### Histórico de atendimentos do usuário corrente
 
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-29.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-53-40.png" width="290px" />
 
 ### Alteração de avatar (imagem de perfil) na plataforma
 
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-11-01-30.png" width="290px" />
 
 
 ## Tecnologias Utilizadas
