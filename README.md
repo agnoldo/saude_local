@@ -16,7 +16,7 @@
     - [Histórico de atendimentos do usuário corrente](https://github.com/agnoldo/saude_local#histórico-de-atendimentos-do-usuário-corrente)
     - [Alteração de avatar na plataforma](https://github.com/agnoldo/saude_local#alteração-de-avatar-imagem-de-perfil-na-plataforma)
 - [Tecnologias Utilizadas](https://github.com/agnoldo/saude_local#tecnologias-utilizadas)
-- [Coordenação e Equipe Técnica](https://github.com/agnoldo/saude_local#coordenação-e-equipe-técnica)
+- [Coordenação](https://github.com/agnoldo/saude_local#coordenação)
 - [Disponibilidade](https://github.com/agnoldo/saude_local#disponibilidade)
 
 
@@ -139,10 +139,9 @@ Além destas tecnologias e frameworks basilares, foram utilizados inúmeros plug
 - moment.js: cálculos diversos relacionados a data/hora no aplicativo;
 - ionic-timepicker: componente para edição de hora de chegada e saída em atendimento.
 
-## Coordenação e Equipe Técnica
+## Coordenação
 
-- Arnaldo Gomes dos Santos Junior (Coordenador)
-- Júnia Gaudereto Carvalho Gomes
+- Arnaldo Gomes dos Santos Junior ([agnoldo@gmail.com](mailto:agnoldo@gmail.com))
 
 ## Disponibilidade
 
