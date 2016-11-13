@@ -95,7 +95,7 @@ Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as pr
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-25.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-32.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-32-53.png" width="290px" />
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-33-05.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-22-51-14.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-52-58.png" width="290px" />
 
 ### Postagem de atendimento
