@@ -121,7 +121,7 @@ Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as pr
 
 ### Alteração de avatar (imagem de perfil) na plataforma
 
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-11-01-30.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-13-09-24-24.png" width="290px" />
 
 
 ## Tecnologias Utilizadas
