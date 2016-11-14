@@ -58,7 +58,7 @@ Finalmente, o aplicativo possui a tela Histórico, que apresenta os registros de
 
 Nesta seção, apresentaremos por meio de capturas de tela (*screenshots*) as principais funcionalidades do aplicativo:
 
-<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-13-22-45-57.png" width="290px" />
+<img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-13-23-22-41.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-27-47.png" width="290px" />
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/Screenshot_2016-11-12-10-40-29.png" width="290px" />
 
