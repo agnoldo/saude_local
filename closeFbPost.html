@@ -16,29 +16,34 @@
   </head>
     
   <body>
-		<main class="wrapper">
-			<nav class="navigation">
-				<section class="container">
-					<a class="navigation-title" href="https://milligram.github.io/">
-						<img class="img" src="https://github.com/agnoldo/saude_local/raw/master/imagens/app_icon.png" height="30" alt="Saúde Local" title="Saúde Local">
-						<h1 class="title">Saúde Local</h1>
-					</a>
-				</section>
-			</nav>
+	<main class="wrapper">
+		<nav class="navigation">
+			<section class="container">
+				<a class="navigation-title" href="https://milligram.github.io/">
+					<img class="img" src="https://github.com/agnoldo/saude_local/raw/master/imagens/app_icon.png" height="30" alt="Saúde Local" title="Saúde Local">
+					<h1 class="title">Saúde Local</h1>
+				</a>
+			</section>
+		</nav>
 
-			<section class="container" id="forms">
-        <!-- .container is main centered wrapper -->
-        <div class="row">
-          <div class="column"><h1>Postagem realizada com sucesso!</h1></div>
-        </div>
-        <div class="row">
-          <div class="column"></div>
-          <div class="column">
-            <a  class="button button-outline" href="javascript:history.go(-2);">Fechar</a>
-           </div>
-          <div class="column"></div>
-        </div>
-      </section>
-    </main>
+		<section class="container" id="forms">
+        		<!-- .container is main centered wrapper -->
+        		<div class="row">
+          			<div class="column"><h2>Postagem realizada com sucesso!</h2></div>
+        		</div>
+        		<div class="row">
+          			<div class="column"></div>
+          			<div class="column">
+            				<a id="post_id" class="button button-outline">Confira sua postagem</a>
+           			</div>
+          			<div class="column"></div>
+        		</div>
+      		</section>
+    	</main>
   </body>
+  	<script>
+		if (location.includes('post_id')) {
+			$('#post_id').attr('href', "https://www.facebook.com/" + location.search.split('post_id=')[1]);
+		}
+	</script>
 </html>
