@@ -44,9 +44,9 @@
   	<script>
 		if (location.search.includes('post_id')) {
 			document.getElementById('post_id').setAttribute('href', "https://www.facebook.com/" + location.search.split('post_id=')[1]);
-		} else {
-			document.getElementById('post_msg').innerHTML = decodeURIComponent(location.search).replace('+', ' ').split('error_message=')[1]; 
-			document.getElementById('post_id').innerHTML = 'Ir para o Facebook';
+		} else if (location.search.includes('error_code=4201')) {
+			document.getElementById('post_msg').innerHTML = 'Usuário cancelou postagem no Facebook.'; 
+			document.getElementById('post_id').innerHTML = 'Verificar no Facebook';
 		}
 	</script>
 </html>
