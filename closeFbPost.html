@@ -29,12 +29,12 @@
 		<section class="container" id="forms">
         		<!-- .container is main centered wrapper -->
         		<div class="row">
-          			<div class="column"><h2>Postagem realizada com sucesso!</h2></div>
+				<div class="column"><h2><span id="post_msg">Postagem realizada com sucesso!</span></h2></div>
         		</div>
         		<div class="row">
           			<div class="column"></div>
           			<div class="column">
-            				<a id="post_id" class="button button-outline">Confira sua postagem</a>
+            				<a id="post_id" class="button button-outline">Conferir sua postagem</a>
            			</div>
           			<div class="column"></div>
         		</div>
@@ -42,8 +42,11 @@
     	</main>
   </body>
   	<script>
-//		if (location.search.includes('post_id')) {
+		if (location.search.includes('post_id')) {
 			document.getElementById('post_id').setAttribute('href', "https://www.facebook.com/" + location.search.split('post_id=')[1]);
-//		}
+		} else {
+			document.getElementById('post_msg').innerHTML = decodeURIComponent(location.search.split('error_message=')[1]); 
+			document.getElementById('post_id').innerHTML = 'Ir para o Facebook';
+		}
 	</script>
 </html>
