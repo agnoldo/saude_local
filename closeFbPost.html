@@ -45,7 +45,7 @@
 		if (location.search.includes('post_id')) {
 			document.getElementById('post_id').setAttribute('href', "https://www.facebook.com/" + location.search.split('post_id=')[1]);
 		} else {
-			document.getElementById('post_msg').innerHTML = unescape(location.search.split('error_message=')[1]); 
+			document.getElementById('post_msg').innerHTML = decodeURIcomponent(location.search).split('error_message=')[1]; 
 			document.getElementById('post_id').innerHTML = 'Ir para o Facebook';
 		}
 	</script>
