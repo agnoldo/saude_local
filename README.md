@@ -145,9 +145,8 @@ Além destas tecnologias e frameworks basilares, foram utilizados inúmeros plug
 
 ## Disponibilidade
 
-Aplicativo lançado inicialmente em beta fechado no Google Play. [Solicite seu convite](mailto:agnoldo@gmail.com)!
+Aplicativo já está disponível no Google Play!
 
 <img src="https://raw.githubusercontent.com/agnoldo/saude_local/master/imagens/FireShot Capture 43 - Saúde Local – Apps para Android _ - https___play.google.com_store_apps_details.png" width="900px" />
-
 
 <a href='https://play.google.com/store/apps/details?id=com.agnoldo.sl01&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/pt-br_badge_web_generic.png'/></a>
